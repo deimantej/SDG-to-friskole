@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif !important;
+}
+
+    /* --------------------section hero-------------------- */
+.hero{
+    background-image: url(cover3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.hero img{
+    max-height: 400px;
+}
+
+.logo{ 
+    width: 200px
+}
+
+.top-bar{
+    padding: 20px;
+    color:  #006837;
+}
+
+.top-bar img{
+    padding: 10px;
+}
+
+.hero h1{
+
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 15%;
+}
+.hero p{
+    color: #fff;
+    font-size: 25px;
+}
+
+    /* --------------------buttons-------------------- */
+.learn {
+    background: none;
+    border: rgb(255, 255, 255) 1px solid;
+    color: rgb(255, 255, 255);
+    height: 45px;
+    width: 200px;
+    border-radius: 200px !important;
+    font: inherit;
+    font-size: 0.8rem !important;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5rem !important;
+    transition: 0.2s;
+    outline: none !important;
+    filter: brightness(0.9);
+}
+
+.learn:hover {
+    background: #2af598;
+    transform: scale(1.05);
+    color: #fff;
+    border: #fff 1px solid;
+    filter: brightness(1);
+}
+
+.learn2 {
+    background: none;
+    border: #000 1px solid;
+    color: #000;
+    height: 45px;
+    width: 200px;
+    border-radius: 200px !important;
+    font: inherit;
+    font-size: 0.8rem !important;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5rem !important;
+    transition: 0.2s;
+    outline: none !important;
+    filter: brightness(0.9);
+}
+.learn2:hover {
+    background: #6B7F44;
+    transform: scale(1.05);
+    color: #fff;
+    border: #fff 1px solid;
+    filter: brightness(1);
+}
+/* --------------------section2 description-------------------- */
+#hero2 { 
+    background-color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* --------------------section  facts-------------------- */
+.facts{
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.services{
+    padding: 20px;
+}
+.services h3{
+    padding: 5px;
+    margin-top: 25px;
+    color: #000;
+}
+/* --------------------section  parallax-------------------- */
+.parallax {
+
+    background-image: url(cover1.jpg);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallax1 {
+
+    background-image: url(cover2.jpg);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* --------------------section greta-------------------- */
+
+
+  .greta-section{
+    padding: 50px 0px;
+}
+.profile{
+    padding: 30px 0;
+
+}
+
+.profile-details{
+    padding: 40px;
+}
+.profile-details h2{
+    margin-bottom: 35px;
+    color: #6B7F44;
+}
+.profile-details h5, p{
+    color: rgb(0, 0, 0);
+}
+.btn-follow{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+    border-radius: 50px;
+}
+.profile-img{
+    text-align: center;
+
+}
+.profile-img img{
+    width:84%;
+    min-width: 356px;
+    border: 2px solid #6B7F44;
+}
+
+.hero3{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.image-info{
+    width: 180px;
+    margin-top: 20px;
+}
+
+
+/* --------------------section footer-------------------- */
+
+.footerimg{
+    width: 100%;
+}
+
+/* --------------------section infographic modal-------------------- */
+#infogra{
+    text-align: center;
+}
+#infogra img{
+    width:12%;
+    min-width: 356px;
+    
+}
+
+.modal,body.modal-open {
+    padding-right: 0!important
+}
+
+body.modal-open {
+    overflow: auto
+}
+
+body.scrollable {
+    overflow-y: auto
+}
+
+.modal-footer {
+	display: flex;
+	justify-content: flex-start;
+	.btn {
+		position: absolute;
+		right: 10px;
+	}
+}
