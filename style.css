@@ -78,37 +78,30 @@
 
     /* --------------------section hero-------------------- */
 .hero{
-    background-image: url(cover3.jpg);
+    background-image: url(home2.jfif);
     background-position: center;
     background-size: cover;
     height: 100vh;
     text-align: center;
+    
 }
 
 .hero img{
     max-height: 400px;
 }
 
-.top-bar{
-    padding: 20px;
-    color:  #006837;
-}
-
-.top-bar img{
-    padding: 10px;
-}
 
 .hero h1{
-
+    
     color: #fff;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     letter-spacing: 3px;
     margin-top: 15%;
 }
 .hero p{
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
 }
 
     /* --------------------buttons-------------------- */
