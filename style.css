@@ -1,3 +1,12 @@
+/*
+Theme Name: friskole
+Theme URI:
+Author: Ugne Sileikyte, Deimante Jokubauskaite, Edvin Milos
+Description: A website for Mejls-Orten-Tinghøj Friskole 
+Text Domain: twentynineteen
+*/
+
+
 @import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
 
 * {
@@ -78,30 +87,37 @@
 
     /* --------------------section hero-------------------- */
 .hero{
-    background-image: url(home2.jfif);
+    background-image: url(cover3.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     text-align: center;
-    
 }
 
 .hero img{
     max-height: 400px;
 }
 
+.top-bar{
+    padding: 20px;
+    color:  #006837;
+}
+
+.top-bar img{
+    padding: 10px;
+}
 
 .hero h1{
-    
+
     color: #fff;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     letter-spacing: 3px;
     margin-top: 15%;
 }
 .hero p{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
     /* --------------------buttons-------------------- */
