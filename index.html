@@ -11,11 +11,12 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+    
 
 </head>
 
 <body>
+    
 <!-----------------------------------navigation bar----------------- -->
 
     <section id="nav-bar">
@@ -59,7 +60,7 @@
         <div class="container text-align">
             <div class="col bannertxt">
                 <div class="center txt">
-                    <h1>Mejls-Orten-Tinghøj Friskole</h1>
+                    <h1>Mejls-Orten-Tinghøj Friskole</h1> 
                     <p>We provide a very good education, super nice cool friendly school.</p>
                 </div>
 
@@ -77,15 +78,13 @@
     <section id="hero2">
         <div class="container text-center">
             <div class="row text-center">
-                <div data-aos="fade-right" class="col-sm-12   services">
-                    
-                    <p>Climate change is now affecting every country on every continent. It is disrupting national economies and affecting lives, costing people, communities and countries dearly today and even more tomorrow. Weather patterns are changing, sea levels are rising, weather events are becoming more extreme and greenhouse gas emissions are now at their highest levels in history. Without action, the world’s average surface temperature is likely to surpass 3 degrees centigrade this century. The poorest and most vulnerable people are being affected the most. <br>
-                        <span> <br></span>
-                        Affordable, scalable solutions are now available to enable countries to leapfrog to cleaner, more resilient economies. The pace of change is quickening as more people are turning to renewable energy and a range of other measures that will reduce emissions and increase adaptation efforts. Climate change, however, is a global challenge that does not respect national borders. It is an issue that requires solutions that need to be coordinated at the international level to help developing countries move toward a low-carbon economy.
-                        <br>
-                        <span> <br></span>
-                        To strengthen the global response to the threat of climate change, countries adopted the Paris Agreement at the COP21 in Paris, which went into force in November of 2016. In the agreement, all countries agreed to work to limit global temperature rise to well below 2 degrees centigrade. As of April 2018, 175 parties had ratified the Paris Agreement and 10 developing countries had submitted their first iteration of their national adaptation plans for responding to climate change.</p>
-                </div>
+                            <div class="card-body">
+                              <blockquote class="blockquote mb-0">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                              </blockquote>
+                            </div>
+
     
             </div>
         </div>
@@ -108,22 +107,40 @@
                 <div class="row">
                     <div data-aos="zoom-in-up" class="col-md-6">
                         <div class="profile-details">
-                            <h2> I have a dream... </h2>
-                            <h5> Greta Thunberg is a Swedish environmental activist focused on the risks posed by global warming.</h5>
+                            <h2 id="enrolltitle1"> Student admission</h2>
+                            <h5 id="enrolltitle2"> Enrollment of students at the Free School.</h5>
 
-                            <p>In August 2018, Greta Thunberg started a school strike for the climate outside the Swedish Parliament that has since spread all over the world and now involves over 100,000 schoolchildren. The movement is now called Fridays For Future. 
+                            <p>The board has established the following principles for the admission of new students:
 
-                                Thunberg has spoken at climate rallies in Stockholm, Helsinki, Brussels and London. In December she attended the United Nations COP24 in Katowice, Poland, where she addressed the Secretary-General and made a plenary speech that went viral and was shared many million times around the globe. In January 2019 she was invited to the World Economic Forum in Davos where her speeches again made a worldwide impact.
-                                
-                                Thunberg tries to live a low-carbon life. Therefore she is vegan, and she doesn't fly. She has been named as one of the worlds most influential teens by TIME magazine.</p>
+                                    1. Priority has:
+                                    
+                                    * siblings to students who are already attending the Free School.
+                                    
+                                    * children from “the old school district”.
+                                    
+                                    * employees' children.
+                                    
+                                    * children who walk in the Engen Natural Park
+                                    
+                                    Students are then admitted upon application if there is room in the classes. When enrolling new students, the
+                                    size and
+                                    composition of the received class must be taken into account in each case and the student's academic and social level.
+                                    
+                                    The same considerations apply in the kindergarten in relation to the different vintages.
+                                    
+                                    It is the board that, in consultation with the school principal, makes a decision on the applications.
+                                    
+                                    Application form and further information can be obtained from the free school.
+                                    
+                                    We aim for a class size of 20 students</p>
                             
-                            <a href="https://www.youtube.com/watch?v=KAJsdgTPJpU" target="_blank"><button class="learn2">LEARN MORE</button></a>
+                            <a href="contacts.html" target="_blank"><button class="learn2">CONTACT US</button></a>
                         </div>
                     </div>
 
                     <div data-aos="zoom-in-down" class="col-md-6">
                         <div class="profile-img">
-                            <img src="poster2.jpg" alt="">
+                            <img src="home3.jfif" alt="">
                         </div>
                     </div>
                 </div>
@@ -133,66 +150,67 @@
     </section>
        <!----------------------------------parallax----------------- -->
     <section class="hero4">
-        <div class="parallax1"></div>
+        <div class="parallax1">
+            <h1 id="pavadinimas">Nu zjbs mokykla, eikit ir lankykit</h1>
+        </div>
+        
 </section>
        <!-----------------------------------facts---------------- -->
 <section class="facts">
-    <div class="container text-center">
-        <h1 data-aos="fade-right" class="title" >Facts and figures</h1>
-        <div class="row text-center">
-            <div data-aos="fade-right" class="col-md-4 services">
-                
-                <h3>+1 C</h3>
-                <p>As of 2017 humans are estimated to have caused approximately 1.0°C of global warming above
-                    pre-industrial levels.</p>
-            </div>
-            <div data-aos="fade-right" class="col-md-4 services">
+    <div id="uzrasas">Practical info</div>
+        <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Transportation
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                            There are good bus connections to the Mejls Free School. From Varde, Orten and Tinghøj with route 294 and from Ølgod, Strellev and Horne also with route 294
 
-                <h3>+20cm</h3>
-                <p>Sea levels have risen by about 20 cm (8 inches) since 1880 and are projected to rise another 30–122 cm (1 to 4 feet) by 2100.</p>
-            </div>
-            <div data-aos="fade-right" class="col-md-4 services">
-
-                <h3>2050</h3>
-                <p>To limit warming to 1.5C, global net CO2 emissions must drop by 45% between 2010 and 2030, and reach net zero around 2050.</p>
-            </div>
-            <div data-aos="fade-right" class="col-md-4 services">
-
-                <h3>1/3</h3>
-                <p>Climate pledges under The Paris Agreement cover only one third of the emissions reductions needed to keep the world below 2°C.</p>
-            </div>
-            <div data-aos="fade-right" class="col-md-4 services">
-
-                <h3>$26 trillion</h3>
-                <p>Bold climate action could trigger at least US$26 trillion in economic benefits by 2030.</p>
-            </div>
-            <div data-aos="fade-right" class="col-md-4 services">
-
-                <h3>18 million</h3>
-                <p>The energy sector alone will create around 18 million more jobs by 2030, focused specifically on sustainable energy.</p>
-            </div>
-            <div data-aos="fade-right" class="col-md-4  services">
-                    <a href="#" class="pop" id="infogra">
-                            <img src="infographic.jpg">
-                        </a>
-                   
-                </div>
-                <div data-aos="fade-right" class="col-md-4  services">
-                        <a href="#" class="pop" id="infogra">
-                                <img src="poster3.png" style="border: 1px solid black;">
-                            </a>
-                       
+                            Bh. pm. - 3 p.m. over 2.5 km.
+                            
+                            4 - 6 p.m. over 6 km.
+                            
+                            7 - 9 p.m. over 7 km.
+                            
+                            The school provides a subsidy for bus tickets, so that the parents' payment is only 1100, - per year
                     </div>
-                    <div data-aos="fade-right" class="col-md-4  services">
-                            <a href="#" class="pop" id="infogra">
-                                    <img src="poster1.jpg">
-                                </a>
-                           
-                        </div>
-
-
-        </div>
-    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 </section>
        <!-----------------------------------modal ----------------- -->
