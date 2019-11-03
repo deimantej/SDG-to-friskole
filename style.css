@@ -113,7 +113,7 @@ Text Domain: twentynineteen
     font-size: 70px;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 15%;
+    margin-top: 15% ;
 }
 .hero p{
     color: #fff;
@@ -173,26 +173,29 @@ Text Domain: twentynineteen
 #hero2 { 
     background-color: #fff;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 5%;
 }
 /* --------------------section  facts-------------------- */
+#uzrasas{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 1%;
+}
 .facts{
-    padding-top: 15%;
+    padding-top: 5%;
     padding-bottom: 10%;
 }
-.services{
-    padding: 20px;
+.accordion{ 
+    padding: 0px 50px;
 }
-.services h3{
-    padding: 5px;
-    margin-top: 25px;
+
+.btn-link{
     color: #000;
 }
 /* --------------------section  parallax-------------------- */
 .parallax {
 
-    background-image: url(cover1.jpg);
+    background-image: url(home1.jfif);
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
@@ -202,12 +205,27 @@ Text Domain: twentynineteen
 
 .parallax1 {
 
-    background-image: url(cover2.jpg);
-    min-height: 500px; 
+    background-image: url(home4.jfif);
+    min-height: 1000px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+#pavadinimas{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 25%;
+ }
+.hero4{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #pavadinimas{
+        color: #fff;
+        padding-top: 60%;
+     }
   }
 /* --------------------section greta-------------------- */
 
@@ -216,16 +234,13 @@ Text Domain: twentynineteen
     padding: 50px 0px;
 }
 .profile{
-    padding: 30px 0;
-
+    padding: 30px 0;}
+#enrolltitle1{
+    padding: 15px 0;
 }
 
-.profile-details{
-    padding: 40px;
-}
-.profile-details h2{
-    margin-bottom: 35px;
-    color: #6B7F44;
+#enrolltitle2{
+    padding-bottom: 15px;
 }
 .profile-details h5, p{
     color: rgb(0, 0, 0);
@@ -247,7 +262,6 @@ Text Domain: twentynineteen
 .profile-img img{
     width:84%;
     min-width: 356px;
-    border: 2px solid #6B7F44;
 }
 
 .hero3{
@@ -293,10 +307,7 @@ body.scrollable {
 	display: flex;
     justify-content: flex-start;
 }
-	.btn {
-		position: absolute;
-		right: 10px;
-	}
+
 
 /* --------------------subpage contacts-------------------- */
 
