@@ -60,7 +60,7 @@
         <div class="container text-align">
             <div class="col bannertxt">
                 <div class="center txt">
-                    <h1>Mejls-Orten-Tinghøj Friskole</h1> 
+                    <h1> <?php the_field('main_title'); ?></h1> 
                     <p>We provide a very good education, super nice cool friendly school.</p>
                 </div>
 
