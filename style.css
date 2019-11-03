@@ -18,7 +18,6 @@
     z-index: 30;
     background:#000 !important;
     transition: .3s ease-in-out;
-    margin-bottom: - 80px;
 }
 
 #nav-bar.scrolled{
