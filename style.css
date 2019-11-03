@@ -289,3 +289,12 @@ body.scrollable {
 		right: 10px;
 	}
 
+/* --------------------subpage contacts-------------------- */
+
+#hero69 { 
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:#0f0f0f;
+}
