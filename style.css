@@ -87,7 +87,7 @@ Text Domain: twentynineteen
 
     /* --------------------section hero-------------------- */
 .hero{
-    background-image: url(cover3.jpg);
+    
     background-position: center;
     background-size: cover;
     height: 100vh;
